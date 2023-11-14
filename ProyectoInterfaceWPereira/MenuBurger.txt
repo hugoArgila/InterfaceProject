@@ -1,0 +1,113 @@
+Menu Brutal Bacon (2 carnes) , 12.45
+Menu Brutal Bacon (1 carne) , 9.95
+Menu Duo Bacon Cheddar (2 carnes) , 11.45
+Menu Duo Bacon Cheddar (1 carne) , 9.95
+Menu Whopper , 8.45
+Menu Doble Cheese Bacon XXL , 10.45
+Menu Big King XXL , 10.45
+Menu Steakhouse , 9.95 
+Menu The King Huevo (2 carnes) , 11.45
+Menu The King Huevo (1 carne) , 9.95
+Menu Doble Whopper , 10.45
+Menu Triple Whopper , 12.45
+Menu Big King , 8.45
+Menu Doble Cheeseburger BBQ , 7.95
+Menu Brutal Bacon Crispy Chicken , 9.45
+Menu Brutal Bacon Doble Crispy Chicken , 10.45
+Menu Doble CBK , 9.75
+Menu CBK , 8.75
+Menu Duo Bacon CheddarDoble Crispy , 9.95
+Menu Doble Crispy Chicken , 8.95
+Menu Crispy Chicken , 7.95
+Menu Long Chicken , 8.45
+Menu Chicken Wrap , 8.45
+Menu Chicken Nuggets , 7.60
+King Jr , 4.95
+King Jr vegetal , 4.95
+Big King Vegetal , 5.95
+Long Vegetal , 5.95
+Nuggets Vegetales , 3.75
+Whopper Vegetal , 5.95
+Nuggets Vegetales , 4.95
+Menu Big King Vegetal , 8.45
+Menu Long Vegetal , 8.45
+Menu Whopper Vegetal , 8.45
+Brutal Bacon (2 carnes) , 9.95
+Brutal Bacon (1 carne) , 7.95
+Brutal Bacon Crispy Chicken , 6.95
+Smoky Steakhouse (1 carne) , 8.45
+Smoky Steakhouse (2 carnes) , 10.45
+CBK Doble , 7.75
+CBK , 6.75
+Duo Bacon Cheddar (2 carnes) , 10.25
+Duo Bacon Cheddar (1 carne) , 8.25
+Duo Bacon CheddarDoble Crispy Chicken , 8.25
+Big King Vegetal , 5.95
+Long Vegetal , 5.95
+Whopper Vegetal , 5.95
+Whopper , 5.95
+Doble Cheese Bacon XXL , 7.95
+Big King XXL , 7.95
+Doble Steakhouse , 9.95
+Steakhouse , 7.95
+The King Huevo (2 carnes) , 9.45
+The King Huevo (1 carne) , 7.95
+Doble Whopper , 7.95
+Triple Whopper , 9.45
+Big King , 5.95 
+Doble Cheeseburger BBQ , 5.95
+Long Chicken , 5.95
+Doble Crispy Chicken , 6.95
+Crispy Chicken , 5.95
+Chicken Wrap , 5.50
+King Fusion Milka Choco Galleta , 3.45
+King Fusion Milka Oreo , 3.45
+King Fusion Milka Original , 3.45
+King Fusion Oreo , 3.45
+King Fusion Kit Kat , 3.15
+King Fusion Nutella , 3.45
+Burger King Sandy Caramelo , 2.50
+Danonino , 1.25
+Oreo Shake , 2.25
+Burger King Sandy Chocolate , 2.50
+Burger King Sandy Fresa , 2.50
+Burger King Sandy Nutella , 2.50
+Tarta Oreo , 3.45
+Gofre Nutella , 3.00
+Gofre , 3.45
+Brownie , 3.45
+Chicken Nuggets , 3.75
+Alitas de Pollo , 3.75
+Patatas Clasicas 3.25
+Patatas Supreme , 3.25
+Chili Cheese Bites , 3.75
+King Aros de Cebolla , 3.25
+Nuggets Vetegales , 3.75
+Gouda Rings 3.45
+Cubo Alitas , 9.90
+Cubo de Nuggets , 9.95
+Cubo de Patatas Clasicas , 5.00
+Cubo de Patatas Supreme , 5.00
+Cubo King Aros , 8.95
+KingFries , 3.75
+Sour Cream , 0.60
+Miel Y Mostaza , 0.60
+Barbacoa , 0.60
+Salsa queso , 0.70
+Salsa mayonesa , 0.60
+Caprisun Tropical , 1.95
+Trina Zero , 1.00
+Coca Cola , 2.99
+Coca Cola Zero , 2.99
+Fanta Naranja , 2.99
+Nestea , 2.99
+Trina , 2.99
+Agua Mineral , 1.99
+Cerveza 00 , 2.95
+Coca Cola Zero Zero , 2.99
+Fanta Limon , 2.99
+Sprite , 2.99
+Monster Ultra White , 2.99
+Monster Energy , 3.75
+Monster Mango Loco , 3.75
+Aquarius Limon , 2.99

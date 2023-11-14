@@ -22,6 +22,7 @@ Partial Class TPV_Trab
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TPV_Trab))
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.BtnEnsDelig = New System.Windows.Forms.Button()
@@ -102,8 +103,6 @@ Partial Class TPV_Trab
         Me.BtnWhoVeg = New System.Windows.Forms.Button()
         Me.BtnLonVeg = New System.Windows.Forms.Button()
         Me.BtnBiKinVeg = New System.Windows.Forms.Button()
-        Me.BtnAngGril1car = New System.Windows.Forms.Button()
-        Me.BtnAngGril2car = New System.Windows.Forms.Button()
         Me.BtnDuBacChedDobCrisChic = New System.Windows.Forms.Button()
         Me.BtnDuBacChed1car = New System.Windows.Forms.Button()
         Me.BtnDuBacChed2car = New System.Windows.Forms.Button()
@@ -202,7 +201,7 @@ Partial Class TPV_Trab
         Me.Panel2.Controls.Add(Me.BtnEnsDelig)
         Me.Panel2.Controls.Add(Me.BtnEnsCes)
         Me.Panel2.Controls.Add(Me.BtnEnsOri)
-        Me.Panel2.Location = New System.Drawing.Point(407, 262)
+        Me.Panel2.Location = New System.Drawing.Point(9, 256)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(56, 51)
         Me.Panel2.TabIndex = 41
@@ -270,7 +269,7 @@ Partial Class TPV_Trab
         Me.Panel1.Controls.Add(Me.BtnCafCap)
         Me.Panel1.Controls.Add(Me.BtnCafAme)
         Me.Panel1.Controls.Add(Me.BtnCafExp)
-        Me.Panel1.Location = New System.Drawing.Point(81, 401)
+        Me.Panel1.Location = New System.Drawing.Point(39, 434)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(67, 56)
         Me.Panel1.TabIndex = 40
@@ -511,7 +510,7 @@ Partial Class TPV_Trab
         Me.PnlComp.Controls.Add(Me.BtnPatClas)
         Me.PnlComp.Controls.Add(Me.BtnChicNugg)
         Me.PnlComp.Controls.Add(Me.BtnAlitPoll)
-        Me.PnlComp.Location = New System.Drawing.Point(346, 415)
+        Me.PnlComp.Location = New System.Drawing.Point(786, 631)
         Me.PnlComp.Name = "PnlComp"
         Me.PnlComp.Size = New System.Drawing.Size(83, 42)
         Me.PnlComp.TabIndex = 39
@@ -681,7 +680,7 @@ Partial Class TPV_Trab
         Me.PnlPost.Controls.Add(Me.btnBurgkinSand)
         Me.PnlPost.Controls.Add(Me.BtnShak)
         Me.PnlPost.Controls.Add(Me.BtnKinFu)
-        Me.PnlPost.Location = New System.Drawing.Point(319, 495)
+        Me.PnlPost.Location = New System.Drawing.Point(728, 645)
         Me.PnlPost.Name = "PnlPost"
         Me.PnlPost.Size = New System.Drawing.Size(109, 71)
         Me.PnlPost.TabIndex = 38
@@ -791,8 +790,6 @@ Partial Class TPV_Trab
         Me.PnlHamb.Controls.Add(Me.BtnWhoVeg)
         Me.PnlHamb.Controls.Add(Me.BtnLonVeg)
         Me.PnlHamb.Controls.Add(Me.BtnBiKinVeg)
-        Me.PnlHamb.Controls.Add(Me.BtnAngGril1car)
-        Me.PnlHamb.Controls.Add(Me.BtnAngGril2car)
         Me.PnlHamb.Controls.Add(Me.BtnDuBacChedDobCrisChic)
         Me.PnlHamb.Controls.Add(Me.BtnDuBacChed1car)
         Me.PnlHamb.Controls.Add(Me.BtnDuBacChed2car)
@@ -805,324 +802,307 @@ Partial Class TPV_Trab
         Me.PnlHamb.Controls.Add(Me.BtnBrutBacCrisChic)
         Me.PnlHamb.Controls.Add(Me.BtnBrutBac1car)
         Me.PnlHamb.Controls.Add(Me.BtnBrutBac2car)
-        Me.PnlHamb.Location = New System.Drawing.Point(275, 405)
+        Me.PnlHamb.Dock = System.Windows.Forms.DockStyle.Right
+        Me.PnlHamb.Location = New System.Drawing.Point(182, 0)
         Me.PnlHamb.Name = "PnlHamb"
-        Me.PnlHamb.Size = New System.Drawing.Size(61, 52)
+        Me.PnlHamb.Size = New System.Drawing.Size(674, 701)
         Me.PnlHamb.TabIndex = 37
         '
         'BtnChicWra
         '
-        Me.BtnChicWra.Location = New System.Drawing.Point(366, 423)
+        Me.BtnChicWra.Image = CType(resources.GetObject("BtnChicWra.Image"), System.Drawing.Image)
+        Me.BtnChicWra.Location = New System.Drawing.Point(288, 617)
         Me.BtnChicWra.Name = "BtnChicWra"
-        Me.BtnChicWra.Size = New System.Drawing.Size(79, 64)
+        Me.BtnChicWra.Size = New System.Drawing.Size(114, 85)
         Me.BtnChicWra.TabIndex = 39
-        Me.BtnChicWra.Text = "CHICKEN WRAP"
         Me.BtnChicWra.UseVisualStyleBackColor = True
         '
         'BtnCrisChic
         '
-        Me.BtnCrisChic.Location = New System.Drawing.Point(281, 423)
+        Me.BtnCrisChic.Image = CType(resources.GetObject("BtnCrisChic.Image"), System.Drawing.Image)
+        Me.BtnCrisChic.Location = New System.Drawing.Point(22, 620)
         Me.BtnCrisChic.Name = "BtnCrisChic"
-        Me.BtnCrisChic.Size = New System.Drawing.Size(79, 64)
+        Me.BtnCrisChic.Size = New System.Drawing.Size(118, 93)
         Me.BtnCrisChic.TabIndex = 38
-        Me.BtnCrisChic.Text = "CRISPY CHICKEN"
         Me.BtnCrisChic.UseVisualStyleBackColor = True
         '
         'BtnLonChic
         '
-        Me.BtnLonChic.Location = New System.Drawing.Point(196, 423)
+        Me.BtnLonChic.Image = CType(resources.GetObject("BtnLonChic.Image"), System.Drawing.Image)
+        Me.BtnLonChic.Location = New System.Drawing.Point(290, 520)
         Me.BtnLonChic.Name = "BtnLonChic"
-        Me.BtnLonChic.Size = New System.Drawing.Size(79, 64)
+        Me.BtnLonChic.Size = New System.Drawing.Size(109, 93)
         Me.BtnLonChic.TabIndex = 37
-        Me.BtnLonChic.Text = "LONG CHICKEN"
         Me.BtnLonChic.UseVisualStyleBackColor = True
         '
         'BtnWhopJR
         '
-        Me.BtnWhopJR.Location = New System.Drawing.Point(111, 423)
+        Me.BtnWhopJR.Image = CType(resources.GetObject("BtnWhopJR.Image"), System.Drawing.Image)
+        Me.BtnWhopJR.Location = New System.Drawing.Point(161, 519)
         Me.BtnWhopJR.Name = "BtnWhopJR"
-        Me.BtnWhopJR.Size = New System.Drawing.Size(79, 64)
+        Me.BtnWhopJR.Size = New System.Drawing.Size(109, 94)
         Me.BtnWhopJR.TabIndex = 36
-        Me.BtnWhopJR.Text = "WHOPPER JR"
         Me.BtnWhopJR.UseVisualStyleBackColor = True
         '
         'BtnHamb
         '
-        Me.BtnHamb.Location = New System.Drawing.Point(3, 423)
+        Me.BtnHamb.Image = CType(resources.GetObject("BtnHamb.Image"), System.Drawing.Image)
+        Me.BtnHamb.Location = New System.Drawing.Point(20, 518)
         Me.BtnHamb.Name = "BtnHamb"
-        Me.BtnHamb.Size = New System.Drawing.Size(102, 64)
+        Me.BtnHamb.Size = New System.Drawing.Size(114, 93)
         Me.BtnHamb.TabIndex = 35
-        Me.BtnHamb.Text = "HAMBURGUESA"
         Me.BtnHamb.UseVisualStyleBackColor = True
         '
         'BtnDobCheeBac
         '
-        Me.BtnDobCheeBac.Location = New System.Drawing.Point(394, 353)
+        Me.BtnDobCheeBac.Image = CType(resources.GetObject("BtnDobCheeBac.Image"), System.Drawing.Image)
+        Me.BtnDobCheeBac.Location = New System.Drawing.Point(554, 309)
         Me.BtnDobCheeBac.Name = "BtnDobCheeBac"
-        Me.BtnDobCheeBac.Size = New System.Drawing.Size(79, 64)
+        Me.BtnDobCheeBac.Size = New System.Drawing.Size(109, 94)
         Me.BtnDobCheeBac.TabIndex = 34
-        Me.BtnDobCheeBac.Text = "DOBLE CHEESE BACON"
         Me.BtnDobCheeBac.UseVisualStyleBackColor = True
         '
         'BtnChee
         '
-        Me.BtnChee.Location = New System.Drawing.Point(283, 353)
+        Me.BtnChee.Image = CType(resources.GetObject("BtnChee.Image"), System.Drawing.Image)
+        Me.BtnChee.Location = New System.Drawing.Point(546, 520)
         Me.BtnChee.Name = "BtnChee"
-        Me.BtnChee.Size = New System.Drawing.Size(105, 64)
+        Me.BtnChee.Size = New System.Drawing.Size(107, 91)
         Me.BtnChee.TabIndex = 33
-        Me.BtnChee.Text = "CHEESEBURGER"
         Me.BtnChee.UseVisualStyleBackColor = True
         '
         'BtnDobCheeBBQ
         '
-        Me.BtnDobCheeBBQ.Location = New System.Drawing.Point(173, 353)
+        Me.BtnDobCheeBBQ.Image = CType(resources.GetObject("BtnDobCheeBBQ.Image"), System.Drawing.Image)
+        Me.BtnDobCheeBBQ.Location = New System.Drawing.Point(413, 522)
         Me.BtnDobCheeBBQ.Name = "BtnDobCheeBBQ"
-        Me.BtnDobCheeBBQ.Size = New System.Drawing.Size(104, 64)
+        Me.BtnDobCheeBBQ.Size = New System.Drawing.Size(110, 97)
         Me.BtnDobCheeBBQ.TabIndex = 32
-        Me.BtnDobCheeBBQ.Text = "DOBLE CHEESEBURGER BBQ"
         Me.BtnDobCheeBBQ.UseVisualStyleBackColor = True
         '
         'BtnBiKin
         '
-        Me.BtnBiKin.Location = New System.Drawing.Point(88, 353)
+        Me.BtnBiKin.Image = CType(resources.GetObject("BtnBiKin.Image"), System.Drawing.Image)
+        Me.BtnBiKin.Location = New System.Drawing.Point(546, 420)
         Me.BtnBiKin.Name = "BtnBiKin"
-        Me.BtnBiKin.Size = New System.Drawing.Size(79, 64)
+        Me.BtnBiKin.Size = New System.Drawing.Size(112, 94)
         Me.BtnBiKin.TabIndex = 31
-        Me.BtnBiKin.Text = "BIG KING"
         Me.BtnBiKin.UseVisualStyleBackColor = True
         '
         'BtnTriWho
         '
-        Me.BtnTriWho.Location = New System.Drawing.Point(3, 353)
+        Me.BtnTriWho.Image = CType(resources.GetObject("BtnTriWho.Image"), System.Drawing.Image)
+        Me.BtnTriWho.Location = New System.Drawing.Point(158, 619)
         Me.BtnTriWho.Name = "BtnTriWho"
-        Me.BtnTriWho.Size = New System.Drawing.Size(79, 64)
+        Me.BtnTriWho.Size = New System.Drawing.Size(113, 81)
         Me.BtnTriWho.TabIndex = 30
-        Me.BtnTriWho.Text = "TRIPLE WHOPPER"
         Me.BtnTriWho.UseVisualStyleBackColor = True
         '
         'BtnDobWho
         '
-        Me.BtnDobWho.Location = New System.Drawing.Point(361, 283)
+        Me.BtnDobWho.Image = CType(resources.GetObject("BtnDobWho.Image"), System.Drawing.Image)
+        Me.BtnDobWho.Location = New System.Drawing.Point(428, 312)
         Me.BtnDobWho.Name = "BtnDobWho"
-        Me.BtnDobWho.Size = New System.Drawing.Size(79, 64)
+        Me.BtnDobWho.Size = New System.Drawing.Size(106, 93)
         Me.BtnDobWho.TabIndex = 29
-        Me.BtnDobWho.Text = "DOBLE WHOPPER"
         Me.BtnDobWho.UseVisualStyleBackColor = True
         '
         'BtnKinHuev1car
         '
-        Me.BtnKinHuev1car.Location = New System.Drawing.Point(276, 283)
+        Me.BtnKinHuev1car.Image = CType(resources.GetObject("BtnKinHuev1car.Image"), System.Drawing.Image)
+        Me.BtnKinHuev1car.Location = New System.Drawing.Point(290, 416)
         Me.BtnKinHuev1car.Name = "BtnKinHuev1car"
-        Me.BtnKinHuev1car.Size = New System.Drawing.Size(79, 64)
+        Me.BtnKinHuev1car.Size = New System.Drawing.Size(101, 90)
         Me.BtnKinHuev1car.TabIndex = 28
-        Me.BtnKinHuev1car.Text = "THE KING HUEVO (1 CARNES)"
         Me.BtnKinHuev1car.UseVisualStyleBackColor = True
         '
         'BtnKinHuev2car
         '
-        Me.BtnKinHuev2car.Location = New System.Drawing.Point(191, 283)
+        Me.BtnKinHuev2car.Image = CType(resources.GetObject("BtnKinHuev2car.Image"), System.Drawing.Image)
+        Me.BtnKinHuev2car.Location = New System.Drawing.Point(148, 415)
         Me.BtnKinHuev2car.Name = "BtnKinHuev2car"
-        Me.BtnKinHuev2car.Size = New System.Drawing.Size(79, 64)
+        Me.BtnKinHuev2car.Size = New System.Drawing.Size(113, 91)
         Me.BtnKinHuev2car.TabIndex = 27
-        Me.BtnKinHuev2car.Text = "THE KING HUEVO (2 CARNES)"
         Me.BtnKinHuev2car.UseVisualStyleBackColor = True
         '
         'BtnSteaHou
         '
-        Me.BtnSteaHou.Location = New System.Drawing.Point(97, 283)
+        Me.BtnSteaHou.Image = CType(resources.GetObject("BtnSteaHou.Image"), System.Drawing.Image)
+        Me.BtnSteaHou.Location = New System.Drawing.Point(23, 303)
         Me.BtnSteaHou.Name = "BtnSteaHou"
-        Me.BtnSteaHou.Size = New System.Drawing.Size(88, 64)
+        Me.BtnSteaHou.Size = New System.Drawing.Size(111, 95)
         Me.BtnSteaHou.TabIndex = 26
-        Me.BtnSteaHou.Text = "STEAKHOUSE"
         Me.BtnSteaHou.UseVisualStyleBackColor = True
         '
         'BtnDobSteHou
         '
-        Me.BtnDobSteHou.Location = New System.Drawing.Point(3, 283)
+        Me.BtnDobSteHou.Image = CType(resources.GetObject("BtnDobSteHou.Image"), System.Drawing.Image)
+        Me.BtnDobSteHou.Location = New System.Drawing.Point(31, 411)
         Me.BtnDobSteHou.Name = "BtnDobSteHou"
-        Me.BtnDobSteHou.Size = New System.Drawing.Size(88, 64)
+        Me.BtnDobSteHou.Size = New System.Drawing.Size(103, 97)
         Me.BtnDobSteHou.TabIndex = 25
-        Me.BtnDobSteHou.Text = "DOBLE STEAKHOUSE"
         Me.BtnDobSteHou.UseVisualStyleBackColor = True
         '
         'BtnBiKinXXL
         '
-        Me.BtnBiKinXXL.Location = New System.Drawing.Point(343, 213)
+        Me.BtnBiKinXXL.Image = CType(resources.GetObject("BtnBiKinXXL.Image"), System.Drawing.Image)
+        Me.BtnBiKinXXL.Location = New System.Drawing.Point(295, 309)
         Me.BtnBiKinXXL.Name = "BtnBiKinXXL"
-        Me.BtnBiKinXXL.Size = New System.Drawing.Size(79, 64)
+        Me.BtnBiKinXXL.Size = New System.Drawing.Size(107, 89)
         Me.BtnBiKinXXL.TabIndex = 24
-        Me.BtnBiKinXXL.Text = "BIG KING XXL"
         Me.BtnBiKinXXL.UseVisualStyleBackColor = True
         '
         'BtnDobCHeBacXXL
         '
-        Me.BtnDobCHeBacXXL.Location = New System.Drawing.Point(258, 213)
+        Me.BtnDobCHeBacXXL.Image = CType(resources.GetObject("BtnDobCHeBacXXL.Image"), System.Drawing.Image)
+        Me.BtnDobCHeBacXXL.Location = New System.Drawing.Point(554, 201)
         Me.BtnDobCHeBacXXL.Name = "BtnDobCHeBacXXL"
-        Me.BtnDobCHeBacXXL.Size = New System.Drawing.Size(79, 64)
+        Me.BtnDobCHeBacXXL.Size = New System.Drawing.Size(105, 89)
         Me.BtnDobCHeBacXXL.TabIndex = 23
-        Me.BtnDobCHeBacXXL.Text = "DOBLE CHEESE BACON XXL"
         Me.BtnDobCHeBacXXL.UseVisualStyleBackColor = True
         '
         'BtnWhop
         '
-        Me.BtnWhop.Location = New System.Drawing.Point(173, 213)
+        Me.BtnWhop.Image = CType(resources.GetObject("BtnWhop.Image"), System.Drawing.Image)
+        Me.BtnWhop.Location = New System.Drawing.Point(418, 201)
         Me.BtnWhop.Name = "BtnWhop"
-        Me.BtnWhop.Size = New System.Drawing.Size(79, 64)
+        Me.BtnWhop.Size = New System.Drawing.Size(116, 99)
         Me.BtnWhop.TabIndex = 22
-        Me.BtnWhop.Text = "WHOPPER"
         Me.BtnWhop.UseVisualStyleBackColor = True
         '
         'BtnWhoVeg
         '
-        Me.BtnWhoVeg.Location = New System.Drawing.Point(88, 213)
+        Me.BtnWhoVeg.Image = CType(resources.GetObject("BtnWhoVeg.Image"), System.Drawing.Image)
+        Me.BtnWhoVeg.Location = New System.Drawing.Point(293, 205)
         Me.BtnWhoVeg.Name = "BtnWhoVeg"
-        Me.BtnWhoVeg.Size = New System.Drawing.Size(79, 64)
+        Me.BtnWhoVeg.Size = New System.Drawing.Size(104, 94)
         Me.BtnWhoVeg.TabIndex = 21
-        Me.BtnWhoVeg.Text = "WHOPPER VEGETAL"
         Me.BtnWhoVeg.UseVisualStyleBackColor = True
         '
         'BtnLonVeg
         '
-        Me.BtnLonVeg.Location = New System.Drawing.Point(3, 213)
+        Me.BtnLonVeg.Image = CType(resources.GetObject("BtnLonVeg.Image"), System.Drawing.Image)
+        Me.BtnLonVeg.Location = New System.Drawing.Point(151, 306)
         Me.BtnLonVeg.Name = "BtnLonVeg"
-        Me.BtnLonVeg.Size = New System.Drawing.Size(79, 64)
+        Me.BtnLonVeg.Size = New System.Drawing.Size(120, 94)
         Me.BtnLonVeg.TabIndex = 20
-        Me.BtnLonVeg.Text = "LONG VEGETAL"
         Me.BtnLonVeg.UseVisualStyleBackColor = True
         '
         'BtnBiKinVeg
         '
-        Me.BtnBiKinVeg.Location = New System.Drawing.Point(343, 143)
+        Me.BtnBiKinVeg.Image = CType(resources.GetObject("BtnBiKinVeg.Image"), System.Drawing.Image)
+        Me.BtnBiKinVeg.Location = New System.Drawing.Point(418, 419)
         Me.BtnBiKinVeg.Name = "BtnBiKinVeg"
-        Me.BtnBiKinVeg.Size = New System.Drawing.Size(79, 64)
+        Me.BtnBiKinVeg.Size = New System.Drawing.Size(112, 97)
         Me.BtnBiKinVeg.TabIndex = 19
-        Me.BtnBiKinVeg.Text = "BIG KING VEGETAL"
         Me.BtnBiKinVeg.UseVisualStyleBackColor = True
-        '
-        'BtnAngGril1car
-        '
-        Me.BtnAngGril1car.Location = New System.Drawing.Point(258, 143)
-        Me.BtnAngGril1car.Name = "BtnAngGril1car"
-        Me.BtnAngGril1car.Size = New System.Drawing.Size(79, 64)
-        Me.BtnAngGril1car.TabIndex = 18
-        Me.BtnAngGril1car.Text = "ANGUS GRILL (1 CARNE)"
-        Me.BtnAngGril1car.UseVisualStyleBackColor = True
-        '
-        'BtnAngGril2car
-        '
-        Me.BtnAngGril2car.Location = New System.Drawing.Point(173, 143)
-        Me.BtnAngGril2car.Name = "BtnAngGril2car"
-        Me.BtnAngGril2car.Size = New System.Drawing.Size(79, 64)
-        Me.BtnAngGril2car.TabIndex = 17
-        Me.BtnAngGril2car.Text = "ANGUS GRILL (2 CARNES)"
-        Me.BtnAngGril2car.UseVisualStyleBackColor = True
         '
         'BtnDuBacChedDobCrisChic
         '
-        Me.BtnDuBacChedDobCrisChic.Location = New System.Drawing.Point(88, 143)
+        Me.BtnDuBacChedDobCrisChic.Image = CType(resources.GetObject("BtnDuBacChedDobCrisChic.Image"), System.Drawing.Image)
+        Me.BtnDuBacChedDobCrisChic.Location = New System.Drawing.Point(159, 205)
         Me.BtnDuBacChedDobCrisChic.Name = "BtnDuBacChedDobCrisChic"
-        Me.BtnDuBacChedDobCrisChic.Size = New System.Drawing.Size(79, 64)
+        Me.BtnDuBacChedDobCrisChic.Size = New System.Drawing.Size(111, 85)
         Me.BtnDuBacChedDobCrisChic.TabIndex = 16
-        Me.BtnDuBacChedDobCrisChic.Text = "DUO BACON CHEDDAR - DOBLE CRISPY CHICKEN®"
         Me.BtnDuBacChedDobCrisChic.UseVisualStyleBackColor = True
         '
         'BtnDuBacChed1car
         '
-        Me.BtnDuBacChed1car.Location = New System.Drawing.Point(3, 143)
+        Me.BtnDuBacChed1car.Image = CType(resources.GetObject("BtnDuBacChed1car.Image"), System.Drawing.Image)
+        Me.BtnDuBacChed1car.Location = New System.Drawing.Point(20, 205)
         Me.BtnDuBacChed1car.Name = "BtnDuBacChed1car"
-        Me.BtnDuBacChed1car.Size = New System.Drawing.Size(79, 64)
+        Me.BtnDuBacChed1car.Size = New System.Drawing.Size(120, 91)
         Me.BtnDuBacChed1car.TabIndex = 15
-        Me.BtnDuBacChed1car.Text = "DUO BACON CHEDDAR (1 CARNE)"
         Me.BtnDuBacChed1car.UseVisualStyleBackColor = True
         '
         'BtnDuBacChed2car
         '
-        Me.BtnDuBacChed2car.Location = New System.Drawing.Point(361, 73)
+        Me.BtnDuBacChed2car.Image = CType(resources.GetObject("BtnDuBacChed2car.Image"), System.Drawing.Image)
+        Me.BtnDuBacChed2car.Location = New System.Drawing.Point(531, 104)
         Me.BtnDuBacChed2car.Name = "BtnDuBacChed2car"
-        Me.BtnDuBacChed2car.Size = New System.Drawing.Size(79, 64)
+        Me.BtnDuBacChed2car.Size = New System.Drawing.Size(115, 88)
         Me.BtnDuBacChed2car.TabIndex = 14
-        Me.BtnDuBacChed2car.Text = "DUO BACON CHEDDAR (2 CARNES)"
         Me.BtnDuBacChed2car.UseVisualStyleBackColor = True
         '
         'BtnCBK
         '
-        Me.BtnCBK.Location = New System.Drawing.Point(276, 73)
+        Me.BtnCBK.Image = CType(resources.GetObject("BtnCBK.Image"), System.Drawing.Image)
+        Me.BtnCBK.Location = New System.Drawing.Point(413, 103)
         Me.BtnCBK.Name = "BtnCBK"
-        Me.BtnCBK.Size = New System.Drawing.Size(79, 64)
+        Me.BtnCBK.Size = New System.Drawing.Size(101, 88)
         Me.BtnCBK.TabIndex = 13
-        Me.BtnCBK.Text = "CBK"
         Me.BtnCBK.UseVisualStyleBackColor = True
         '
         'BtnCBKDob
         '
-        Me.BtnCBKDob.Location = New System.Drawing.Point(191, 73)
+        Me.BtnCBKDob.Image = CType(resources.GetObject("BtnCBKDob.Image"), System.Drawing.Image)
+        Me.BtnCBKDob.Location = New System.Drawing.Point(264, 101)
         Me.BtnCBKDob.Name = "BtnCBKDob"
-        Me.BtnCBKDob.Size = New System.Drawing.Size(79, 64)
+        Me.BtnCBKDob.Size = New System.Drawing.Size(114, 98)
         Me.BtnCBKDob.TabIndex = 12
-        Me.BtnCBKDob.Text = "CBK DOBLE"
         Me.BtnCBKDob.UseVisualStyleBackColor = True
         '
         'BtnSmoSteHou2car
         '
-        Me.BtnSmoSteHou2car.Location = New System.Drawing.Point(97, 73)
+        Me.BtnSmoSteHou2car.Image = CType(resources.GetObject("BtnSmoSteHou2car.Image"), System.Drawing.Image)
+        Me.BtnSmoSteHou2car.Location = New System.Drawing.Point(137, 101)
         Me.BtnSmoSteHou2car.Name = "BtnSmoSteHou2car"
-        Me.BtnSmoSteHou2car.Size = New System.Drawing.Size(88, 64)
+        Me.BtnSmoSteHou2car.Size = New System.Drawing.Size(113, 93)
         Me.BtnSmoSteHou2car.TabIndex = 11
-        Me.BtnSmoSteHou2car.Text = "SMOKY STEAKHOUSE (2 CARNE)"
         Me.BtnSmoSteHou2car.UseVisualStyleBackColor = True
         '
         'BtnSmoSteHou1car
         '
-        Me.BtnSmoSteHou1car.Location = New System.Drawing.Point(3, 73)
+        Me.BtnSmoSteHou1car.Image = CType(resources.GetObject("BtnSmoSteHou1car.Image"), System.Drawing.Image)
+        Me.BtnSmoSteHou1car.Location = New System.Drawing.Point(17, 105)
         Me.BtnSmoSteHou1car.Name = "BtnSmoSteHou1car"
-        Me.BtnSmoSteHou1car.Size = New System.Drawing.Size(88, 64)
+        Me.BtnSmoSteHou1car.Size = New System.Drawing.Size(114, 86)
         Me.BtnSmoSteHou1car.TabIndex = 10
-        Me.BtnSmoSteHou1car.Text = "SMOKY STEAKHOUSE (1 CARNE)"
         Me.BtnSmoSteHou1car.UseVisualStyleBackColor = True
         '
         'BtnSteaHouChic
         '
-        Me.BtnSteaHouChic.Location = New System.Drawing.Point(356, 3)
+        Me.BtnSteaHouChic.Image = CType(resources.GetObject("BtnSteaHouChic.Image"), System.Drawing.Image)
+        Me.BtnSteaHouChic.Location = New System.Drawing.Point(532, 12)
         Me.BtnSteaHouChic.Name = "BtnSteaHouChic"
-        Me.BtnSteaHouChic.Size = New System.Drawing.Size(89, 64)
+        Me.BtnSteaHouChic.Size = New System.Drawing.Size(114, 83)
         Me.BtnSteaHouChic.TabIndex = 9
-        Me.BtnSteaHouChic.Text = "SMOKY STEAKHOUSE CHICKEN"
         Me.BtnSteaHouChic.UseVisualStyleBackColor = True
         '
         'BtnBrutBacDobCrisChic
         '
-        Me.BtnBrutBacDobCrisChic.Location = New System.Drawing.Point(258, 3)
+        Me.BtnBrutBacDobCrisChic.Image = CType(resources.GetObject("BtnBrutBacDobCrisChic.Image"), System.Drawing.Image)
+        Me.BtnBrutBacDobCrisChic.Location = New System.Drawing.Point(400, 12)
         Me.BtnBrutBacDobCrisChic.Name = "BtnBrutBacDobCrisChic"
-        Me.BtnBrutBacDobCrisChic.Size = New System.Drawing.Size(92, 64)
+        Me.BtnBrutBacDobCrisChic.Size = New System.Drawing.Size(114, 83)
         Me.BtnBrutBacDobCrisChic.TabIndex = 8
-        Me.BtnBrutBacDobCrisChic.Text = "BRUTAL BACON DOBLE CRISPY CHICKEN"
         Me.BtnBrutBacDobCrisChic.UseVisualStyleBackColor = True
         '
         'BtnBrutBacCrisChic
         '
-        Me.BtnBrutBacCrisChic.Location = New System.Drawing.Point(173, 3)
+        Me.BtnBrutBacCrisChic.Image = CType(resources.GetObject("BtnBrutBacCrisChic.Image"), System.Drawing.Image)
+        Me.BtnBrutBacCrisChic.Location = New System.Drawing.Point(264, 13)
         Me.BtnBrutBacCrisChic.Name = "BtnBrutBacCrisChic"
-        Me.BtnBrutBacCrisChic.Size = New System.Drawing.Size(79, 64)
+        Me.BtnBrutBacCrisChic.Size = New System.Drawing.Size(114, 82)
         Me.BtnBrutBacCrisChic.TabIndex = 7
-        Me.BtnBrutBacCrisChic.Text = "BRUTAL BACON CRISPY CHICKEN"
         Me.BtnBrutBacCrisChic.UseVisualStyleBackColor = True
         '
         'BtnBrutBac1car
         '
-        Me.BtnBrutBac1car.Location = New System.Drawing.Point(88, 3)
+        Me.BtnBrutBac1car.Image = CType(resources.GetObject("BtnBrutBac1car.Image"), System.Drawing.Image)
+        Me.BtnBrutBac1car.Location = New System.Drawing.Point(137, 21)
         Me.BtnBrutBac1car.Name = "BtnBrutBac1car"
-        Me.BtnBrutBac1car.Size = New System.Drawing.Size(79, 64)
+        Me.BtnBrutBac1car.Size = New System.Drawing.Size(97, 74)
         Me.BtnBrutBac1car.TabIndex = 6
-        Me.BtnBrutBac1car.Text = "BRUTAL BACON (1 CARNE)"
         Me.BtnBrutBac1car.UseVisualStyleBackColor = True
         '
         'BtnBrutBac2car
         '
-        Me.BtnBrutBac2car.Location = New System.Drawing.Point(3, 3)
+        Me.BtnBrutBac2car.Image = CType(resources.GetObject("BtnBrutBac2car.Image"), System.Drawing.Image)
+        Me.BtnBrutBac2car.Location = New System.Drawing.Point(18, 25)
         Me.BtnBrutBac2car.Name = "BtnBrutBac2car"
-        Me.BtnBrutBac2car.Size = New System.Drawing.Size(79, 64)
+        Me.BtnBrutBac2car.Size = New System.Drawing.Size(89, 74)
         Me.BtnBrutBac2car.TabIndex = 5
-        Me.BtnBrutBac2car.Text = "BRUTAL BACON (2 CARNES)"
         Me.BtnBrutBac2car.UseVisualStyleBackColor = True
         '
         'PnlKinJR
@@ -1794,7 +1774,7 @@ Partial Class TPV_Trab
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1253, 682)
+        Me.ClientSize = New System.Drawing.Size(856, 701)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PnlComp)
@@ -1911,8 +1891,6 @@ Partial Class TPV_Trab
     Friend WithEvents BtnWhoVeg As Button
     Friend WithEvents BtnLonVeg As Button
     Friend WithEvents BtnBiKinVeg As Button
-    Friend WithEvents BtnAngGril1car As Button
-    Friend WithEvents BtnAngGril2car As Button
     Friend WithEvents BtnDuBacChedDobCrisChic As Button
     Friend WithEvents BtnDuBacChed1car As Button
     Friend WithEvents BtnDuBacChed2car As Button
